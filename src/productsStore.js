@@ -5,7 +5,7 @@ const productsArray = [
 ];
 
 function getProductData(id) {
-  let productData = productArray.find((product) => product.id === id);
+  let productData = productsArray.find((product) => product.id === id);
   if (productData === undefined) {
     console.log('Product not found');
     return undefined;
